@@ -1,0 +1,30 @@
+/* AnimeHomepage.css */
+.anime-homepage {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .anime-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .anime-item {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .anime-item h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .anime-item p {
+    font-size: 16px;
+    color: #666;
+  }
+  
