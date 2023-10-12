@@ -59,14 +59,13 @@ export default function Ani() {
   import AppBar from '@mui/material/AppBar';
   import Box from '@mui/material/Box';
   import Toolbar from '@mui/material/Toolbar';
-  import Typography from '@mui/material/Typography';
+  /*import Typography from '@mui/material/Typography';*/
   import Button from '@mui/material/Button';
   import IconButton from '@mui/material/IconButton';
   import MenuIcon from '@mui/icons-material/Menu';
-  import InfoIcon from '@mui/icons-material/Info';
+  /*import InfoIcon from '@mui/icons-material/Info';*/
   import Form from './Form';
-  import Home from './Home';
-  
+  import "./adi.css";
   export default function Ani() {
     return (
       <Router>
@@ -84,19 +83,19 @@ export default function Ani() {
               </IconButton>
               <img width="100px" src="https://s2.bunnycdn.ru/assets/t4/s1/images/logo.png" alt="logo" />             
               <Button color="inherit">
-                <Link to="/Form">Login</Link>
+                <Link to="/Form" className='a'>Login</Link>
               </Button>
               <Button color="inherit">
-                <a href='https://zorox.to/home'>Home</a>
+                <a href='https://zorox.to/home' className='a'>Home</a>
               </Button>
               <Button color="inherit">
-                <a href='https://zorox.to/trending'>Trending</a>
+                <a href='https://zorox.to/trending' className='a'>Trending</a>
               </Button>
               <Button color="inherit">
-                <a href='https://zorox.to/updated'>Recent Update</a>
+                <a href='https://zorox.to/updated' className='a'>Recent Update</a>
               </Button>
               <Button color="inherit">
-                <a href='https://zorox.to/newest'>New Release</a>
+                <a href='https://zorox.to/newest' className='a'>New Release</a>
               </Button>
             </Toolbar>
           </AppBar>
@@ -111,7 +110,4 @@ export default function Ani() {
   }
   
   
-  function MostPopular() {
-    return <h1>Most Popular Page</h1>;
-  }
   

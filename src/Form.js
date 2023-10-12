@@ -1,15 +1,5 @@
 import React from 'react'
 import "./s.css";
-function a(){
-  var x=document.getElementById("a").value;
-  var y=document.getElementById("b").value;
-  var z=/^[2][1][Aa][8][1][Aa][6][1][0-9][0-9]+$/;
-  var u=/^[a-zA-Z0-9@.!@#$%^&*;:/]+$/;
-  if(z.test(x) == z.test(y))
-   document.getElementById("c").innerHTML="Sucessfully Logined";
-  else
-   document.getElementById("c").innerHTML="Invalid Username (or) Password";
-}
 
 function Content(){
   return (
