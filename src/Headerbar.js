@@ -66,6 +66,7 @@ export default function Ani() {
   /*import InfoIcon from '@mui/icons-material/Info';*/
   import Form from './Form';
   import "./adi.css";
+import Home from './Home';
   export default function Ani() {
     return (
       <Router>
@@ -86,7 +87,7 @@ export default function Ani() {
                 <Link to="/Form" className='a'>Login</Link>
               </Button>
               <Button color="inherit">
-                <a href='https://zorox.to/home' className='a'>Home</a>
+                <Link to="/Home" className='a'>Home</Link>
               </Button>
               <Button color="inherit">
                 <a href='https://zorox.to/trending' className='a'>Trending</a>
@@ -101,7 +102,7 @@ export default function Ani() {
           </AppBar>
           <Routes>
 
-            
+          <Route path="/Home" element={<Home />} />
             <Route path="/Form" element={<Form />} />
           </Routes>
         </Box>
